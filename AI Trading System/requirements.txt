@@ -1,0 +1,16 @@
+pydantic
+python-dotenv
+requests
+gradio
+pandas
+plotly
+mcp
+openai
+openai-agents
+langgraph
+langchain
+langchain-openai
+polygon-api-client
+httpx
+uvicorn
+anyio
