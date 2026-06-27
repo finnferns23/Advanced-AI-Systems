@@ -1,0 +1,18 @@
+[project]
+name = "atlas-ai-intelligent-studio"
+version = "1.2.0"
+description = "Production-focused AI workspace for assistants, document knowledge, image reasoning, voice output, and MCP planning."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "openai>=1.0.0",
+  "streamlit>=1.36.0",
+  "python-dotenv>=1.0.1",
+  "pypdf>=4.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120

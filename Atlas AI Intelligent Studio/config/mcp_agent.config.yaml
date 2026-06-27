@@ -1,0 +1,6 @@
+mcp:
+  servers:
+    browser:
+      command: npx
+      args:
+        - "@modelcontextprotocol/server-puppeteer"
